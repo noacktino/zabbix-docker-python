@@ -19,7 +19,7 @@ A Short Tutorial With ZABBIX Running in Docker and Python
      - Name: Trapper item
      - Type: Zabbix trapper
      - Type of information: Numeric unsigned
-   ![Server Configuration](https://user-images.githubusercontent.com/13030569/40416348-5a6f0d36-5e7d-11e8-9afa-8125b002c087.png)
+![Server Configuration](https://user-images.githubusercontent.com/13030569/40416348-5a6f0d36-5e7d-11e8-9afa-8125b002c087.png)
 3. (Optional) Create a python virtualenv                                     
    ```virtualenv -p python3 ./venv```
 4. Install the python requirements                                                      
