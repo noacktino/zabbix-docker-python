@@ -9,7 +9,7 @@ A Short Tutorial With ZABBIX Running in Docker and Python
 # Running the Example
 1. You should start the Docker container running the following command:                 
    ```docker-compose -f docker-compose-local.yml up```                                       
-   You can then access the ZABBIX Web Frontend http://localhost:8081
+   You can then access the ZABBIX Web Frontend (user: Admin pwd: zabbix) http://localhost:8081
 2. Make sure that the ZABBIX server entails the right configuration
    ![Server Configuration](https://user-images.githubusercontent.com/13030569/40416348-5a6f0d36-5e7d-11e8-9afa-8125b002c087.png)
    - You need to have the *host* configured ([see ZABBIX docs](https://www.zabbix.com/documentation/3.0/manual/quickstart/host))
