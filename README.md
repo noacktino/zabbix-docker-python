@@ -30,6 +30,8 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    ```{"processed": 1, "failed": 0, "total": 1, "time": "0.000140", "chunk": 1}```
 8. In the ZABBIX Web Interface you can then see the latest events
 ![Server Configuration](https://user-images.githubusercontent.com/13030569/40417948-59a57274-5e81-11e8-9609-d393545240fe.png)
+9. You can then play a bit with the sender and send different integer values and visualize them in a graph
+![Server Configuration](https://user-images.githubusercontent.com/13030569/40418098-bbb6c490-5e81-11e8-8617-11e77196d732.png)
 7. If you get ```{"processed": 0, "failed": 1, "total": 1, "time": "0.000140", "chunk": 1}``` check your server configuration!
 
 # Improvements
