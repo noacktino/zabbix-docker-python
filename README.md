@@ -15,7 +15,10 @@ A Short Tutorial With ZABBIX Running in Docker and Python
      - Host name: my.local.sender
      - Groups: Templates/Applications
      - Agent interfaces: keep original configuration
-   - You need to have at least the *Trapper item* configured
+   - You need to have at least the *Trapper item* configured ([see ZABBIX docs](https://www.zabbix.com/documentation/3.0/manual/quickstart/item))
+     - Name: Trapper item
+     - Type: Zabbix trapper
+     - Type of information: Numeric unsigned
 3. (Optional) Create a python virtualenv                                     
    ```virtualenv -p python3 ./venv```
 4. Install the python requirements                                                      
