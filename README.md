@@ -11,6 +11,7 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    ```docker-compose -f docker-compose-local.yml up```                                       
    You can then access the ZABBIX Web Frontend http://localhost:8081
 2. Make sure that the ZABBIX server entails the right configuration
+   ![Server Configuration](https://user-images.githubusercontent.com/13030569/40416348-5a6f0d36-5e7d-11e8-9afa-8125b002c087.png)
    - You need to have the *host* configured ([see ZABBIX docs](https://www.zabbix.com/documentation/3.0/manual/quickstart/host))
      - Host name: my.local.sender
      - Groups: Templates/Applications
@@ -19,7 +20,6 @@ A Short Tutorial With ZABBIX Running in Docker and Python
      - Name: Trapper item
      - Type: Zabbix trapper
      - Type of information: Numeric unsigned
-![Server Configuration](https://user-images.githubusercontent.com/13030569/40416348-5a6f0d36-5e7d-11e8-9afa-8125b002c087.png)
 3. (Optional) Create a python virtualenv                                     
    ```virtualenv -p python3 ./venv```
 4. Install the python requirements                                                      
