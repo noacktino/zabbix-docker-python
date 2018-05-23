@@ -12,5 +12,6 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    You can then access the ZABBIX Web Frontend http://localhost:8081
 2. (Optional) Create a python virtualenv                                     
    ```virtualenv -p python3 ./venv```
-3. Install the python requirements
+3. Install the python requirements                                                      
+   ```pip install -r requirements.txt```  
 4. Start the zabbix_client
