@@ -12,9 +12,9 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    You can then access the ZABBIX Web Frontend http://localhost:8081
 2. Make sure that the ZABBIX server entails the right configuration
    - You need to have the host configured ([see ZABBIX docs](https://www.zabbix.com/documentation/3.0/manual/quickstart/host))
-     Host name: my.local.sender
-     Groups: Templates/Applications
-     Agent interfaces: keep original configuration
+     - Host name: my.local.sender
+     - Groups: Templates/Applications
+     - Agent interfaces: keep original configuration
 3. (Optional) Create a python virtualenv                                     
    ```virtualenv -p python3 ./venv```
 4. Install the python requirements                                                      
