@@ -16,7 +16,7 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    ```pip install -r requirements.txt```  
 4. Start the zabbix_client                            
    ```python zabbix_client/__init__.py```
-   You should then receive a message like this:                     
+5. You should then receive a message like this:                     
    ```{"processed": 1, "failed": 0, "total": 1, "time": "0.000140", "chunk": 1}```
 
 
