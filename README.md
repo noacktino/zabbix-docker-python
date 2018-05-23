@@ -27,5 +27,8 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    ```python zabbix_client/__init__.py```
 6. You should then receive a message like this:                     
    ```{"processed": 1, "failed": 0, "total": 1, "time": "0.000140", "chunk": 1}```
+   If you get ```{"processed": 0, "failed": 1, "total": 1, "time": "0.000140", "chunk": 1}``` check your configuration!
 
+# Improvements
+Maybe it's possible to provision the ZABBIX server in order to avoid manual configuration which is error prone. Maybe the api could be used.
 
