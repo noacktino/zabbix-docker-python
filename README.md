@@ -28,6 +28,8 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    ```python zabbix_client/__init__.py```
 6. You should then receive a message like this:                     
    ```{"processed": 1, "failed": 0, "total": 1, "time": "0.000140", "chunk": 1}```
+8. In the ZABBIX Web Interface you can then see the latest events
+![Server Configuration](https://user-images.githubusercontent.com/13030569/40417948-59a57274-5e81-11e8-9609-d393545240fe.png)
 7. If you get ```{"processed": 0, "failed": 1, "total": 1, "time": "0.000140", "chunk": 1}``` check your server configuration!
 
 # Improvements
