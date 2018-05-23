@@ -30,5 +30,5 @@ A Short Tutorial With ZABBIX Running in Docker and Python
 7. If you get ```{"processed": 0, "failed": 1, "total": 1, "time": "0.000140", "chunk": 1}``` check your server configuration!
 
 # Improvements
-Maybe it's possible to provision the ZABBIX server in order to avoid manual configuration which is error prone.            Maybe the api could be used.
+Maybe it's possible to provision the ZABBIX server in order to avoid manual configuration which is error prone.            Therefore, the api could be used.
 
