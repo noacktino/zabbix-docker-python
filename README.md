@@ -14,4 +14,7 @@ A Short Tutorial With ZABBIX Running in Docker and Python
    ```virtualenv -p python3 ./venv```
 3. Install the python requirements                                                      
    ```pip install -r requirements.txt```  
-4. Start the zabbix_client
+4. Start the zabbix_client                            
+   ```python zabbix_client/__init__.py``` 
+
+
